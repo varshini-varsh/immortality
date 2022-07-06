@@ -28,7 +28,8 @@ My mother is a surgeon, thus in times of medical emergency, she is forced to rel
 * Therefore, it permits non-pharmacists to take the proper dosage.
 * The process then repeats itself with the subsequent tablet and appropriate dosage until the desired medications has been consumed.
 * The message “Prescription fill complete" is returned once all of the medications have been consumed.
-![image](https://user-images.githubusercontent.com/71514075/177646364-5738f3e6-0089-4348-baa5-3d2b01dc91d1.png)
+![image](https://user-images.githubusercontent.com/71514075/177646646-9965a3b8-072b-47de-aa9a-e6540d35ce8f.png)
+
 
 # Workflow
 
