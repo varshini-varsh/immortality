@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1000012666843614}
+  m_IsPrefabParent: 1
+--- !u!1 &1000012666843614
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000010703163086}
+  - 114: {fileID: 114000013723939218}
+  m_Layer: 2
+  m_Name: Waypoints
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4000010703163086
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012666843614}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114000013723939218
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012666843614}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6594d6b94be96214a90ef227e2bb0738, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CurrentAppState: 0
+  drugs:
+  - name: Adderall
+    productCard: {fileID: 1000012963281772, guid: a55bc4077bbd0bd4197f94b2f83567b3,
+      type: 2}
+  - name: Anacin
+    productCard: {fileID: 1000012963281772, guid: 53930124bdf76154bb0378e05cce91d8,
+      type: 2}
+  - name: Aricept
+    productCard: {fileID: 1000012963281772, guid: c43adad02e2bec7489b77e38f4484506,
+      type: 2}
+  - name: 
+    productCard: {fileID: 0}
+  - name: 
+    productCard: {fileID: 0}
+  - name: 
+    productCard: {fileID: 0}
+  - name: 
+    productCard: {fileID: 0}
+  - name: 
+    productCard: {fileID: 0}
+  - name: 
+    productCard: {fileID: 0}
+  - name: 
+    productCard: {fileID: 0}
+  wayPointList: []
+  waypointThreshold: 1.75
+  distToWaypoint: 0
+  PrevWayPoint: {fileID: 0}
+  CurrentWayPoint: {fileID: 0}
+  GoToNextWayPointBtn: 0
+  WrapWayPoints: 0
+  ReachedCurrentWayPoint: 0
+  WaypointPrefab: {fileID: 1000011107313634, guid: 0d6711c6a7f048b47a31b90ff8b61833,
+    type: 2}
+  WaypointCursorPrefab: {fileID: 1000011107313634, guid: b3eb8f6f21efd6b4b8c9a883e5f01cdc,
+    type: 2}
